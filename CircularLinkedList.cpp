@@ -4,8 +4,8 @@ using namespace std;
 
 class Node {
     public:
-    int data;
-    Node* next;
+      int data;
+      Node* next;
 
     //constrcutor
     Node(int d) {
@@ -162,7 +162,7 @@ int main() {
   //  insertNode(tail, 3, 5);
    // print(tail);
 
-/*
+
     insertNode(tail, 5, 7);
     print(tail);
 
@@ -179,16 +179,16 @@ int main() {
     print(tail);
    
 
-    deleteNode(tail, 5);
-    print(tail);
-     */
+//    deleteNode(tail, 5);
+//    print(tail);
+     
 
-    if(isCircularList(tail)) {
-        cout << " Linked List is Circular in nature" << endl;
-    }
-    else{
-        cout << "Linked List is not Circular " << endl;
-    }
+//    if(isCircularList(tail)) {
+//        cout << " Linked List is Circular in nature" << endl;
+//    }
+//    else{
+//        cout << "Linked List is not Circular " << endl;
+//    }
 
     return 0;
 }
